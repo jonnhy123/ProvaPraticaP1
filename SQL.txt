@@ -1,0 +1,8 @@
+CREATE DATABASE pessoa;
+
+CREATE TABLE PESSOA(
+	id INT PRIMARY KEY NOT NULL,
+	idade INT,
+	nome VARCHAR(50),
+	telefone VARCHAR(30)
+);
